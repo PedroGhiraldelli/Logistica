@@ -69,23 +69,23 @@
             label15 = new Label();
             label14 = new Label();
             tabPage5 = new TabPage();
+            comboBox3 = new ComboBox();
+            comboBox2 = new ComboBox();
+            comboBox1 = new ComboBox();
+            dateTimePicker3 = new DateTimePicker();
+            dateTimePicker2 = new DateTimePicker();
+            textBox1 = new TextBox();
+            label23 = new Label();
+            label22 = new Label();
+            label21 = new Label();
+            label20 = new Label();
+            label19 = new Label();
+            label18 = new Label();
             panel1 = new Panel();
             button4 = new Button();
             button3 = new Button();
             button2 = new Button();
             btn_save = new Button();
-            label18 = new Label();
-            label19 = new Label();
-            label20 = new Label();
-            label21 = new Label();
-            label22 = new Label();
-            label23 = new Label();
-            textBox1 = new TextBox();
-            dateTimePicker2 = new DateTimePicker();
-            dateTimePicker3 = new DateTimePicker();
-            comboBox1 = new ComboBox();
-            comboBox2 = new ComboBox();
-            comboBox3 = new ComboBox();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -409,6 +409,7 @@
             // comboBox_tipocomb
             // 
             comboBox_tipocomb.FormattingEnabled = true;
+            comboBox_tipocomb.Items.AddRange(new object[] { "Gasolina Comum", "Gasolina Aditivada", "Etanol", "Diesel", "Pódium", "GNV" });
             comboBox_tipocomb.Location = new Point(276, 200);
             comboBox_tipocomb.Name = "comboBox_tipocomb";
             comboBox_tipocomb.Size = new Size(177, 26);
@@ -479,11 +480,113 @@
             tabPage5.Controls.Add(label20);
             tabPage5.Controls.Add(label19);
             tabPage5.Controls.Add(label18);
-            tabPage5.Location = new Point(4, 27);
+            tabPage5.Location = new Point(4, 24);
             tabPage5.Name = "tabPage5";
-            tabPage5.Size = new Size(1036, 555);
+            tabPage5.Size = new Size(1036, 558);
             tabPage5.TabIndex = 4;
             tabPage5.Text = "Viagem";
+            // 
+            // comboBox3
+            // 
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(301, 424);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(200, 26);
+            comboBox3.TabIndex = 11;
+            comboBox3.DropDown += comboBox3_DropDown;
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(301, 378);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(200, 26);
+            comboBox2.TabIndex = 10;
+            comboBox2.DropDown += comboBox2_DropDown;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(301, 332);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(200, 26);
+            comboBox1.TabIndex = 9;
+            comboBox1.DropDown += comboBox1_DropDown;
+            // 
+            // dateTimePicker3
+            // 
+            dateTimePicker3.Location = new Point(301, 285);
+            dateTimePicker3.Name = "dateTimePicker3";
+            dateTimePicker3.Size = new Size(200, 26);
+            dateTimePicker3.TabIndex = 8;
+            // 
+            // dateTimePicker2
+            // 
+            dateTimePicker2.Location = new Point(301, 241);
+            dateTimePicker2.Name = "dateTimePicker2";
+            dateTimePicker2.Size = new Size(200, 26);
+            dateTimePicker2.TabIndex = 7;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(301, 202);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 26);
+            textBox1.TabIndex = 6;
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Location = new Point(218, 424);
+            label23.Name = "label23";
+            label23.Size = new Size(77, 18);
+            label23.TabIndex = 5;
+            label23.Text = "Motorista:";
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Location = new Point(169, 378);
+            label22.Name = "label22";
+            label22.Size = new Size(126, 18);
+            label22.TabIndex = 4;
+            label22.Text = "Rota da Viagem:";
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(151, 335);
+            label21.Name = "label21";
+            label21.Size = new Size(144, 18);
+            label21.TabIndex = 3;
+            label21.Text = "Veiculo da Viagem:";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Location = new Point(81, 291);
+            label20.Name = "label20";
+            label20.Size = new Size(214, 18);
+            label20.TabIndex = 2;
+            label20.Text = "Data de chegada da Viagem:";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(103, 247);
+            label19.Name = "label19";
+            label19.Size = new Size(192, 18);
+            label19.TabIndex = 1;
+            label19.Text = "Data de siada da Viagem:";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(209, 205);
+            label18.Name = "label18";
+            label18.Size = new Size(86, 18);
+            label18.TabIndex = 0;
+            label18.Text = "Viagem ID:";
             // 
             // panel1
             // 
@@ -518,6 +621,7 @@
             button3.Size = new Size(85, 90);
             button3.TabIndex = 2;
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -539,108 +643,6 @@
             btn_save.TabIndex = 0;
             btn_save.UseVisualStyleBackColor = true;
             btn_save.Click += btn_save_Click;
-            // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.Location = new Point(209, 205);
-            label18.Name = "label18";
-            label18.Size = new Size(86, 18);
-            label18.TabIndex = 0;
-            label18.Text = "Viagem ID:";
-            // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.Location = new Point(103, 247);
-            label19.Name = "label19";
-            label19.Size = new Size(192, 18);
-            label19.TabIndex = 1;
-            label19.Text = "Data de siada da Viagem:";
-            // 
-            // label20
-            // 
-            label20.AutoSize = true;
-            label20.Location = new Point(81, 291);
-            label20.Name = "label20";
-            label20.Size = new Size(214, 18);
-            label20.TabIndex = 2;
-            label20.Text = "Data de chegada da Viagem:";
-            // 
-            // label21
-            // 
-            label21.AutoSize = true;
-            label21.Location = new Point(151, 335);
-            label21.Name = "label21";
-            label21.Size = new Size(144, 18);
-            label21.TabIndex = 3;
-            label21.Text = "Veiculo da Viagem:";
-            // 
-            // label22
-            // 
-            label22.AutoSize = true;
-            label22.Location = new Point(169, 378);
-            label22.Name = "label22";
-            label22.Size = new Size(126, 18);
-            label22.TabIndex = 4;
-            label22.Text = "Rota da Viagem:";
-            // 
-            // label23
-            // 
-            label23.AutoSize = true;
-            label23.Location = new Point(218, 424);
-            label23.Name = "label23";
-            label23.Size = new Size(77, 18);
-            label23.TabIndex = 5;
-            label23.Text = "Motorista:";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(301, 202);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 26);
-            textBox1.TabIndex = 6;
-            // 
-            // dateTimePicker2
-            // 
-            dateTimePicker2.Location = new Point(301, 241);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(200, 26);
-            dateTimePicker2.TabIndex = 7;
-            // 
-            // dateTimePicker3
-            // 
-            dateTimePicker3.Location = new Point(301, 285);
-            dateTimePicker3.Name = "dateTimePicker3";
-            dateTimePicker3.Size = new Size(200, 26);
-            dateTimePicker3.TabIndex = 8;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(301, 332);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(200, 26);
-            comboBox1.TabIndex = 9;
-            comboBox1.DropDown += comboBox1_DropDown;
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(301, 378);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(200, 26);
-            comboBox2.TabIndex = 10;
-            comboBox2.DropDown += comboBox2_DropDown;
-            // 
-            // comboBox3
-            // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(301, 424);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(200, 26);
-            comboBox3.TabIndex = 11;
-            comboBox3.DropDown += comboBox3_DropDown;
             // 
             // Form1
             // 

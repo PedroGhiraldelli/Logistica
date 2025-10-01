@@ -32,3 +32,4 @@ C:\Users\pedro.ahghiraldelli\source\repos\Logistica\WinFormsApp1\obj\Debug\net8.
 C:\Users\pedro.ahghiraldelli\source\repos\Logistica\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Properties.Resources.resources
 C:\Users\pedro.ahghiraldelli\source\repos\Logistica\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.sourcelink.json
 C:\Users\pedro.ahghiraldelli\source\repos\Logistica\WinFormsApp1\obj\Debug\net8.0-windows\WinForms.E4050A35.Up2Date
+C:\Users\pedro.ahghiraldelli\source\repos\Logistica\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ConsultaForm.resources
