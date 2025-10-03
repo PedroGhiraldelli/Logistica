@@ -98,6 +98,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Arial", 12F);
             label1.Location = new Point(154, 147);
             label1.Margin = new Padding(4, 0, 4, 0);
@@ -109,6 +110,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Arial", 12F);
             label2.Location = new Point(102, 192);
             label2.Margin = new Padding(4, 0, 4, 0);
@@ -120,17 +122,19 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
             label3.Font = new Font("Arial", 12F);
-            label3.Location = new Point(122, 246);
+            label3.Location = new Point(114, 246);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(118, 18);
+            label3.Size = new Size(126, 18);
             label3.TabIndex = 2;
-            label3.Text = "Placa do veiulo:";
+            label3.Text = "Placa do veiculo:";
             // 
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
             label4.Font = new Font("Arial", 12F);
             label4.Location = new Point(42, 301);
             label4.Margin = new Padding(4, 0, 4, 0);
@@ -142,6 +146,7 @@
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
             label5.Font = new Font("Arial", 12F);
             label5.Location = new Point(91, 363);
             label5.Margin = new Padding(4, 0, 4, 0);
@@ -154,6 +159,7 @@
             // 
             textBox_veiculoID.Location = new Point(247, 147);
             textBox_veiculoID.Name = "textBox_veiculoID";
+            textBox_veiculoID.ReadOnly = true;
             textBox_veiculoID.Size = new Size(108, 26);
             textBox_veiculoID.TabIndex = 5;
             // 
@@ -201,6 +207,8 @@
             // tabPage1
             // 
             tabPage1.BackColor = SystemColors.Control;
+            tabPage1.BackgroundImage = (Image)resources.GetObject("tabPage1.BackgroundImage");
+            tabPage1.BackgroundImageLayout = ImageLayout.Stretch;
             tabPage1.Controls.Add(label4);
             tabPage1.Controls.Add(textBox_carga);
             tabPage1.Controls.Add(label1);
@@ -221,6 +229,8 @@
             // tabPage2
             // 
             tabPage2.BackColor = Color.Gainsboro;
+            tabPage2.BackgroundImage = (Image)resources.GetObject("tabPage2.BackgroundImage");
+            tabPage2.BackgroundImageLayout = ImageLayout.Stretch;
             tabPage2.Controls.Add(textBox_fone);
             tabPage2.Controls.Add(textBox_cnh);
             tabPage2.Controls.Add(textBox_nomeMotorista);
@@ -229,10 +239,10 @@
             tabPage2.Controls.Add(label8);
             tabPage2.Controls.Add(label7);
             tabPage2.Controls.Add(label6);
-            tabPage2.Location = new Point(4, 24);
+            tabPage2.Location = new Point(4, 27);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1036, 558);
+            tabPage2.Size = new Size(1036, 555);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Motorista";
             // 
@@ -261,12 +271,14 @@
             // 
             textBox_MotoristaID.Location = new Point(200, 139);
             textBox_MotoristaID.Name = "textBox_MotoristaID";
+            textBox_MotoristaID.ReadOnly = true;
             textBox_MotoristaID.Size = new Size(174, 26);
             textBox_MotoristaID.TabIndex = 4;
             // 
             // label9
             // 
             label9.AutoSize = true;
+            label9.BackColor = Color.Transparent;
             label9.Location = new Point(33, 285);
             label9.Name = "label9";
             label9.Size = new Size(161, 18);
@@ -276,6 +288,7 @@
             // label8
             // 
             label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
             label8.Location = new Point(57, 235);
             label8.Name = "label8";
             label8.Size = new Size(137, 18);
@@ -285,6 +298,7 @@
             // label7
             // 
             label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
             label7.Location = new Point(49, 188);
             label7.Name = "label7";
             label7.Size = new Size(145, 18);
@@ -294,6 +308,7 @@
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
             label6.Location = new Point(98, 142);
             label6.Name = "label6";
             label6.Size = new Size(96, 18);
@@ -303,6 +318,8 @@
             // tabPage3
             // 
             tabPage3.BackColor = Color.LightGray;
+            tabPage3.BackgroundImage = (Image)resources.GetObject("tabPage3.BackgroundImage");
+            tabPage3.BackgroundImageLayout = ImageLayout.Stretch;
             tabPage3.Controls.Add(textBox_distancia);
             tabPage3.Controls.Add(textBox_destino);
             tabPage3.Controls.Add(textBox_origem);
@@ -311,9 +328,9 @@
             tabPage3.Controls.Add(label12);
             tabPage3.Controls.Add(label11);
             tabPage3.Controls.Add(label10);
-            tabPage3.Location = new Point(4, 24);
+            tabPage3.Location = new Point(4, 27);
             tabPage3.Name = "tabPage3";
-            tabPage3.Size = new Size(1036, 558);
+            tabPage3.Size = new Size(1036, 555);
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Rota";
             // 
@@ -342,12 +359,14 @@
             // 
             textBox_rotaID.Location = new Point(221, 149);
             textBox_rotaID.Name = "textBox_rotaID";
+            textBox_rotaID.ReadOnly = true;
             textBox_rotaID.Size = new Size(202, 26);
             textBox_rotaID.TabIndex = 4;
             // 
             // label13
             // 
             label13.AutoSize = true;
+            label13.BackColor = Color.Transparent;
             label13.Location = new Point(78, 301);
             label13.Name = "label13";
             label13.Size = new Size(137, 18);
@@ -357,6 +376,7 @@
             // label12
             // 
             label12.AutoSize = true;
+            label12.BackColor = Color.Transparent;
             label12.Location = new Point(90, 255);
             label12.Name = "label12";
             label12.Size = new Size(125, 18);
@@ -366,6 +386,7 @@
             // label11
             // 
             label11.AutoSize = true;
+            label11.BackColor = Color.Transparent;
             label11.Location = new Point(92, 204);
             label11.Name = "label11";
             label11.Size = new Size(123, 18);
@@ -375,6 +396,7 @@
             // label10
             // 
             label10.AutoSize = true;
+            label10.BackColor = Color.Transparent;
             label10.Location = new Point(151, 152);
             label10.Name = "label10";
             label10.Size = new Size(64, 18);
@@ -384,6 +406,8 @@
             // tabPage4
             // 
             tabPage4.BackColor = Color.Silver;
+            tabPage4.BackgroundImage = (Image)resources.GetObject("tabPage4.BackgroundImage");
+            tabPage4.BackgroundImageLayout = ImageLayout.Stretch;
             tabPage4.Controls.Add(dateTimePicker1);
             tabPage4.Controls.Add(comboBox_tipocomb);
             tabPage4.Controls.Add(textBox_precocomb);
@@ -408,6 +432,7 @@
             // 
             // comboBox_tipocomb
             // 
+            comboBox_tipocomb.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox_tipocomb.FormattingEnabled = true;
             comboBox_tipocomb.Items.AddRange(new object[] { "Gasolina Comum", "Gasolina Aditivada", "Etanol", "Diesel", "Pódium", "GNV" });
             comboBox_tipocomb.Location = new Point(276, 200);
@@ -426,12 +451,14 @@
             // 
             textBox_combustivelID.Location = new Point(276, 149);
             textBox_combustivelID.Name = "textBox_combustivelID";
+            textBox_combustivelID.ReadOnly = true;
             textBox_combustivelID.Size = new Size(177, 26);
             textBox_combustivelID.TabIndex = 4;
             // 
             // label17
             // 
             label17.AutoSize = true;
+            label17.BackColor = Color.Transparent;
             label17.Location = new Point(128, 302);
             label17.Name = "label17";
             label17.Size = new Size(142, 18);
@@ -441,6 +468,7 @@
             // label16
             // 
             label16.AutoSize = true;
+            label16.BackColor = Color.Transparent;
             label16.Location = new Point(75, 252);
             label16.Name = "label16";
             label16.Size = new Size(195, 18);
@@ -450,6 +478,7 @@
             // label15
             // 
             label15.AutoSize = true;
+            label15.BackColor = Color.Transparent;
             label15.Location = new Point(84, 203);
             label15.Name = "label15";
             label15.Size = new Size(186, 18);
@@ -459,6 +488,7 @@
             // label14
             // 
             label14.AutoSize = true;
+            label14.BackColor = Color.Transparent;
             label14.Location = new Point(153, 152);
             label14.Name = "label14";
             label14.Size = new Size(117, 18);
@@ -468,6 +498,8 @@
             // tabPage5
             // 
             tabPage5.BackColor = Color.DarkGray;
+            tabPage5.BackgroundImage = (Image)resources.GetObject("tabPage5.BackgroundImage");
+            tabPage5.BackgroundImageLayout = ImageLayout.Stretch;
             tabPage5.Controls.Add(comboBox3);
             tabPage5.Controls.Add(comboBox2);
             tabPage5.Controls.Add(comboBox1);
@@ -480,14 +512,15 @@
             tabPage5.Controls.Add(label20);
             tabPage5.Controls.Add(label19);
             tabPage5.Controls.Add(label18);
-            tabPage5.Location = new Point(4, 24);
+            tabPage5.Location = new Point(4, 27);
             tabPage5.Name = "tabPage5";
-            tabPage5.Size = new Size(1036, 558);
+            tabPage5.Size = new Size(1036, 555);
             tabPage5.TabIndex = 4;
             tabPage5.Text = "Viagem";
             // 
             // comboBox3
             // 
+            comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox3.FormattingEnabled = true;
             comboBox3.Location = new Point(301, 424);
             comboBox3.Name = "comboBox3";
@@ -497,6 +530,7 @@
             // 
             // comboBox2
             // 
+            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox2.FormattingEnabled = true;
             comboBox2.Location = new Point(301, 378);
             comboBox2.Name = "comboBox2";
@@ -506,6 +540,7 @@
             // 
             // comboBox1
             // 
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox1.FormattingEnabled = true;
             comboBox1.Location = new Point(301, 332);
             comboBox1.Name = "comboBox1";
@@ -531,12 +566,14 @@
             // 
             textBox1.Location = new Point(301, 202);
             textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
             textBox1.Size = new Size(100, 26);
             textBox1.TabIndex = 6;
             // 
             // label23
             // 
             label23.AutoSize = true;
+            label23.BackColor = Color.Transparent;
             label23.Location = new Point(218, 424);
             label23.Name = "label23";
             label23.Size = new Size(77, 18);
@@ -546,6 +583,7 @@
             // label22
             // 
             label22.AutoSize = true;
+            label22.BackColor = Color.Transparent;
             label22.Location = new Point(169, 378);
             label22.Name = "label22";
             label22.Size = new Size(126, 18);
@@ -555,6 +593,7 @@
             // label21
             // 
             label21.AutoSize = true;
+            label21.BackColor = Color.Transparent;
             label21.Location = new Point(151, 335);
             label21.Name = "label21";
             label21.Size = new Size(144, 18);
@@ -564,6 +603,7 @@
             // label20
             // 
             label20.AutoSize = true;
+            label20.BackColor = Color.Transparent;
             label20.Location = new Point(81, 291);
             label20.Name = "label20";
             label20.Size = new Size(214, 18);
@@ -573,6 +613,7 @@
             // label19
             // 
             label19.AutoSize = true;
+            label19.BackColor = Color.Transparent;
             label19.Location = new Point(103, 247);
             label19.Name = "label19";
             label19.Size = new Size(192, 18);
@@ -582,6 +623,7 @@
             // label18
             // 
             label18.AutoSize = true;
+            label18.BackColor = Color.Transparent;
             label18.Location = new Point(209, 205);
             label18.Name = "label18";
             label18.Size = new Size(86, 18);
@@ -592,7 +634,9 @@
             // 
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel1.BackColor = SystemColors.ButtonFace;
-            panel1.BorderStyle = BorderStyle.Fixed3D;
+            panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
+            panel1.BackgroundImageLayout = ImageLayout.Stretch;
+            panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button2);
@@ -604,44 +648,50 @@
             // 
             // button4
             // 
+            button4.BackColor = SystemColors.GradientInactiveCaption;
             button4.BackgroundImage = (Image)resources.GetObject("button4.BackgroundImage");
             button4.BackgroundImageLayout = ImageLayout.Stretch;
             button4.Location = new Point(279, 3);
             button4.Name = "button4";
             button4.Size = new Size(85, 90);
             button4.TabIndex = 3;
-            button4.UseVisualStyleBackColor = true;
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
+            button3.BackColor = SystemColors.GradientInactiveCaption;
             button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
             button3.BackgroundImageLayout = ImageLayout.Stretch;
             button3.Location = new Point(188, 3);
             button3.Name = "button3";
             button3.Size = new Size(85, 90);
             button3.TabIndex = 2;
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // button2
             // 
+            button2.BackColor = SystemColors.GradientInactiveCaption;
             button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
             button2.BackgroundImageLayout = ImageLayout.Stretch;
             button2.Location = new Point(97, 3);
             button2.Name = "button2";
             button2.Size = new Size(85, 90);
             button2.TabIndex = 1;
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // btn_save
             // 
+            btn_save.BackColor = SystemColors.GradientInactiveCaption;
             btn_save.BackgroundImage = (Image)resources.GetObject("btn_save.BackgroundImage");
             btn_save.BackgroundImageLayout = ImageLayout.Stretch;
             btn_save.Location = new Point(6, 3);
             btn_save.Name = "btn_save";
             btn_save.Size = new Size(85, 90);
             btn_save.TabIndex = 0;
-            btn_save.UseVisualStyleBackColor = true;
+            btn_save.UseVisualStyleBackColor = false;
             btn_save.Click += btn_save_Click;
             // 
             // Form1
