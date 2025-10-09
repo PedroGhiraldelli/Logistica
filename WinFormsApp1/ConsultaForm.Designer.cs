@@ -56,6 +56,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(dataGridView1);
             Name = "ConsultaForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Consulta";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);

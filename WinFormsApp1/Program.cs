@@ -8,10 +8,26 @@ namespace WinFormsApp1
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
+            // Inicializa configuração da aplicação (fontes, DPI, etc)
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+
+            // Cria a instância do formulário login
+            using (var loginForm = new login())
+            {
+                // Exibe login modal e captura resultado
+                var resultado = loginForm.ShowDialog();
+
+                if (resultado == DialogResult.OK)
+                {
+                    // Se login OK, abre formulário principal
+                    Application.Run(new Form1());
+                }
+                else
+                {
+                    // Encerra aplicação caso login não tenha ocorrido
+                    Application.Exit();
+                }
+            }
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\Logistica\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\Logistica\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\Logistica\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\Logistica\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectPath": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\WinFormsApp1.csproj",
         "packagesPath": "C:\\Users\\pedro.ahghiraldelli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\Logistica\\WinFormsApp1\\obj\\",
+        "outputPath": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

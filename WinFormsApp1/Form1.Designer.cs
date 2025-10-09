@@ -239,10 +239,10 @@
             tabPage2.Controls.Add(label8);
             tabPage2.Controls.Add(label7);
             tabPage2.Controls.Add(label6);
-            tabPage2.Location = new Point(4, 27);
+            tabPage2.Location = new Point(4, 24);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1036, 555);
+            tabPage2.Size = new Size(1036, 558);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Motorista";
             // 
@@ -328,9 +328,9 @@
             tabPage3.Controls.Add(label12);
             tabPage3.Controls.Add(label11);
             tabPage3.Controls.Add(label10);
-            tabPage3.Location = new Point(4, 27);
+            tabPage3.Location = new Point(4, 24);
             tabPage3.Name = "tabPage3";
-            tabPage3.Size = new Size(1036, 555);
+            tabPage3.Size = new Size(1036, 558);
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Rota";
             // 
@@ -416,9 +416,9 @@
             tabPage4.Controls.Add(label16);
             tabPage4.Controls.Add(label15);
             tabPage4.Controls.Add(label14);
-            tabPage4.Location = new Point(4, 27);
+            tabPage4.Location = new Point(4, 24);
             tabPage4.Name = "tabPage4";
-            tabPage4.Size = new Size(1036, 555);
+            tabPage4.Size = new Size(1036, 558);
             tabPage4.TabIndex = 3;
             tabPage4.Text = "Preço Combustivel";
             // 
@@ -512,9 +512,9 @@
             tabPage5.Controls.Add(label20);
             tabPage5.Controls.Add(label19);
             tabPage5.Controls.Add(label18);
-            tabPage5.Location = new Point(4, 27);
+            tabPage5.Location = new Point(4, 24);
             tabPage5.Name = "tabPage5";
-            tabPage5.Size = new Size(1036, 555);
+            tabPage5.Size = new Size(1036, 558);
             tabPage5.TabIndex = 4;
             tabPage5.Text = "Viagem";
             // 
@@ -704,6 +704,7 @@
             Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(4);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "veiculo";
             Load += Form1_Load;
             tabControl1.ResumeLayout(false);
