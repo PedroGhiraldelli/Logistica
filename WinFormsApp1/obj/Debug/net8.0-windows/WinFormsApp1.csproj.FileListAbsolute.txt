@@ -67,3 +67,6 @@ C:\Users\pedro.ahghiraldelli\source\repos\PedroGhiraldelli\Logistica\WinFormsApp
 C:\Users\pedro.ahghiraldelli\source\repos\PedroGhiraldelli\Logistica\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
 C:\Users\pedro.ahghiraldelli\source\repos\PedroGhiraldelli\Logistica\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
 C:\Users\pedro.ahghiraldelli\source\repos\PedroGhiraldelli\Logistica\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
+C:\Users\pedro.ahghiraldelli\source\repos\PedroGhiraldelli\Logistica\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.cadastro.resources
+C:\Users\pedro.ahghiraldelli\source\repos\PedroGhiraldelli\Logistica\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.login.resources
+C:\Users\pedro.ahghiraldelli\source\repos\PedroGhiraldelli\Logistica\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.sourcelink.json

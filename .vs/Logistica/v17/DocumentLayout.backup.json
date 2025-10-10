@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\pedro.ahghiraldelli\\source\\repos\\pedroghiraldelli\\logistica\\winformsapp1\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\pedro.ahghiraldelli\\source\\repos\\pedroghiraldelli\\logistica\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\pedro.ahghiraldelli\\source\\repos\\pedroghiraldelli\\logistica\\winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\pedro.ahghiraldelli\\source\\repos\\pedroghiraldelli\\logistica\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\pedro.ahghiraldelli\\source\\repos\\pedroghiraldelli\\logistica\\winformsapp1\\consultaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\consultaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\winformsapp1\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -17,6 +21,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\pedro.ahghiraldelli\\source\\repos\\pedroghiraldelli\\logistica\\winformsapp1\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\pedro.ahghiraldelli\\source\\repos\\pedroghiraldelli\\logistica\\winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19913F4C-CEA1-4CBC-825C-34F6EC7BB523}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +38,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 333,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAqwPsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T16:18:14.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\Form1.cs [Projeto]",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T16:16:54.611Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsultaForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\ConsultaForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\ConsultaForm.cs",
+              "ToolTip": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\ConsultaForm.cs [Projeto]",
+              "RelativeToolTip": "WinFormsApp1\\ConsultaForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T16:15:51.816Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "login.cs",
               "DocumentMoniker": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\login.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\login.cs",
@@ -43,38 +92,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "cadastro.cs",
               "DocumentMoniker": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\cadastro.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\cadastro.cs",
               "ToolTip": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\cadastro.cs",
               "RelativeToolTip": "WinFormsApp1\\cadastro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T16:33:39.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "cadastro.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\cadastro.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\cadastro.cs",
               "ToolTip": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\cadastro.cs [Projeto]",
               "RelativeToolTip": "WinFormsApp1\\cadastro.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T16:24:52.271Z"
+              "WhenOpened": "2025-10-09T16:24:52.271Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "login.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\login.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\login.cs",
               "ToolTip": "C:\\Users\\pedro.ahghiraldelli\\source\\repos\\PedroGhiraldelli\\Logistica\\WinFormsApp1\\login.cs [Projeto]",
               "RelativeToolTip": "WinFormsApp1\\login.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T16:17:22.644Z"
+              "WhenOpened": "2025-10-09T16:17:22.644Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }

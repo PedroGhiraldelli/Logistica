@@ -23,7 +23,39 @@ namespace WinFormsApp1
             comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox_tipocomb.DropDownStyle = ComboBoxStyle.DropDownList;
 
+            // Adicionar eventos KeyPress para validação dos campos numéricos
+            textBox_fone.KeyPress += ApenasNumeros_KeyPress;
+            textBox_cnh.KeyPress += ApenasNumeros_KeyPress;
+            textBox_consumo.KeyPress += ApenasNumerosEDecimal_KeyPress;
+            textBox_carga.KeyPress += ApenasNumerosEDecimal_KeyPress;
+            textBox_distancia.KeyPress += ApenasNumerosEDecimal_KeyPress;
+            textBox_precocomb.KeyPress += ApenasNumerosEDecimal_KeyPress;
+
             tabControl1.SelectedIndexChanged += tabControl1_SelectedIndexChanged;
+        }
+
+        // Permite somente números inteiros
+        private void ApenasNumeros_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        // Permite números e separador decimal (virgula/ponto, conforme sistema)
+        private void ApenasNumerosEDecimal_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            TextBox textBox = sender as TextBox;
+            char separadorDecimal = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator[0];
+
+            // Permite control, dígito ou decimal (somente um decimal)
+            if (!char.IsControl(e.KeyChar) &&
+                !char.IsDigit(e.KeyChar) &&
+                (e.KeyChar != separadorDecimal || textBox.Text.Contains(separadorDecimal.ToString())))
+            {
+                e.Handled = true;
+            }
         }
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
@@ -238,8 +270,7 @@ namespace WinFormsApp1
 
             return true;
         }
-
-
+        
         private void btn_save_Click(object sender, EventArgs e)
         {
             saveForm();
